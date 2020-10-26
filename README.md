@@ -22,13 +22,14 @@ The following **extensions** are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.ibb.co/Gp2dMB8/cs194a-mymaps-demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.ibb.co/XJd86Kn/cs194a-mymaps-demo-2x.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
 * Spent quite some time trouble shooting an error that told me to update Play Services even after installing it from the SDK Manager, was eventually resolved after I installed a different emulator
 * Ran into these errors: "'lateinit' modifier is not allowed on properties with initializer" & "Classifier 'MapsAdapter' does not have a companion object, and thus must be initialized here", still not sure what caused it, errors were resolved by pasting "private lateinit var mapAdapter: MapsAdapter" typed out in a different text editor
-* For some reason, Imgur automatically converted my .gif to .mp4 :(
+* For some reason, Imgur converted my .gif to .mp4 
+* The .gitignore does not automatically exclude the file containing the Google Maps API key, which is a little concerning. 
 
 ## License
 
